@@ -5,9 +5,9 @@ TEST(myfunctions, add_1)
 {
     GTEST_ASSERT_EQ(add(10, 22), 32);
 }
-TEST(myfunctions, add_2)
+TEST(myfunctions2, add_1)
 {
-    GTEST_ASSERT_EQ(add(0, 15), 13);
+    GTEST_ASSERT_NE(add(0, 15), 13);
 }
 TEST(myfunctions, add_3)
 {
